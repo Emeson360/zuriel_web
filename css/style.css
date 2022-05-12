@@ -1889,6 +1889,7 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
 }
 
 .elementor-price-table {
+  margin-bottom: 12px;
   text-align: center;
   width: 23.6%;
   background-color: #1D1D1D;
