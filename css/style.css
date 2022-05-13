@@ -1535,12 +1535,10 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
 .doNotHesitate {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   text-align: center;
   width: 70%;
   margin: auto;
   margin-top: 50px;
-  /* margin-bottom: 50px; */
   padding-bottom: 50px;
 }
 
@@ -5001,12 +4999,21 @@ h4.panel-title a.collapsed:before {
 
 @media (max-width: 570px) {
   .doNotHesitate {
+    width: 100%;
     display: block;
   }
+
   .doNotHesitate p {
-    width: 100%;
     font-size: 16px;
+    width: 100%;
+    color: white;
   }
+  
+  .elementor-price-table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   .bitcoin-calculator-section {
     height: inherit;
     padding-bottom: 0;
